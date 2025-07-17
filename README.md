@@ -44,4 +44,9 @@ venv\Scripts\activate
 # On macOS/Linux:
 source venv/bin/activate
 
-pip install -r requirements.txt
+# To run with a traffic video
+python main.py -p traffic_video.mp4
+
+# To run with a live webcam
+python main.py -l
+
